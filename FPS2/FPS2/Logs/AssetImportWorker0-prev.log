@@ -1,0 +1,450 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 7918 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/xintv/FPS2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+2656
+Successfully changed project path to: C:/Users/xintv/FPS2
+C:/Users/xintv/FPS2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 25.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/xintv/FPS2/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   
+    VRAM:     3959 MB
+    Driver:   30.0.100.9955
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004228 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.475 seconds
+Domain Reload Profiling:
+	ReloadAssembly (475ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (345ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (110ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (125ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (25ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009681 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.841 seconds
+Domain Reload Profiling:
+	ReloadAssembly (842ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (677ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.8 MB.
+System memory in use after: 68.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1937.
+Total: 2.150200 ms (FindLiveObjects: 0.088700 ms CreateObjectMapping: 0.032800 ms MarkObjects: 1.969800 ms  DeleteObjects: 0.057900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/HQ Hangar Free/Prefabs
+  artifactKey: Guid(5d5be74c01d368c42bdc033b7b966bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Prefabs using Guid(5d5be74c01d368c42bdc033b7b966bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813f020ae43d66b2f7e0c6ca696dbfe3') in 0.005193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.347443 seconds.
+  path: Assets/HQ Hangar Free/Scene/HDRPHighQuality.asset
+  artifactKey: Guid(36dd385e759c96147b6463dcd1149c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Scene/HDRPHighQuality.asset using Guid(36dd385e759c96147b6463dcd1149c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd6dc0bc70bb76db2e77d0c9ccf3ab4') in 0.022963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/HQ Hangar Free/Scene/SampleScenePostProcessingSettings 1.asset
+  artifactKey: Guid(5971749ce91e000478c2e6203ef0290f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Scene/SampleScenePostProcessingSettings 1.asset using Guid(5971749ce91e000478c2e6203ef0290f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768685fdcf771e1178721ed4324a84a7') in 0.002594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/HQ Hangar Free/Scene/SampleSceneSkyandFogSettings 1.asset
+  artifactKey: Guid(31804904cb936704c9eee3192745e574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Scene/SampleSceneSkyandFogSettings 1.asset using Guid(31804904cb936704c9eee3192745e574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfedea981271d36a550f2c93f0a8fc6a') in 0.003466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.576338 seconds.
+  path: Assets/HQ Hangar Free/Scene/ExampleScene.unity
+  artifactKey: Guid(26411d937a2ad2d42ba12b6d41011915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Scene/ExampleScene.unity using Guid(26411d937a2ad2d42ba12b6d41011915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35dd298910ea7c4ba27e2c4d5ca02ab') in 0.010370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.764622 seconds.
+  path: Assets/HQ Hangar Free/Prefabs/Floor.prefab
+  artifactKey: Guid(87fbfc3224b1b454cb612fc112128a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Prefabs/Floor.prefab using Guid(87fbfc3224b1b454cb612fc112128a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4345bae236c6905fa3a91c28f0cc2b46') in 0.072471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/HQ Hangar Free/Prefabs/Hangar_part_05.prefab
+  artifactKey: Guid(219d51f7f380a7f4093f3fd1215a118d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Prefabs/Hangar_part_05.prefab using Guid(219d51f7f380a7f4093f3fd1215a118d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf75797804b12f86ec1eec90f067b94') in 0.014845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/HQ Hangar Free/Prefabs/Hangar_part_04.prefab
+  artifactKey: Guid(ebf1084dd427fdf47bcda95f4d7d960c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Prefabs/Hangar_part_04.prefab using Guid(ebf1084dd427fdf47bcda95f4d7d960c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ec67025669ca38e1b3658a167927ef') in 0.011664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/HQ Hangar Free/Prefabs/Hangar_part_01.prefab
+  artifactKey: Guid(4fbefc7b93407ce4c9601f64d1bf35a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Prefabs/Hangar_part_01.prefab using Guid(4fbefc7b93407ce4c9601f64d1bf35a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270934f3dfb53b8e4be7cb097052587a') in 0.012967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/HQ Hangar Free/Prefabs/Hangar_part_03.prefab
+  artifactKey: Guid(5b8a7ba67a2fe244b9233063b154d924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Prefabs/Hangar_part_03.prefab using Guid(5b8a7ba67a2fe244b9233063b154d924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8834d85b934451d7509aa06f08d78eed') in 0.011432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/HQ Hangar Free/Prefabs/Hangar_part_02.prefab
+  artifactKey: Guid(291c0ca312755dd46aa73682c956d4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Prefabs/Hangar_part_02.prefab using Guid(291c0ca312755dd46aa73682c956d4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2cc3a358f2d8aa126913f6fb7e5605') in 0.012878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.331726 seconds.
+  path: Assets/HQ Hangar Free/Models/Hangar_part_01.fbx
+  artifactKey: Guid(d08605b992248f948b207f9e2131d3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Models/Hangar_part_01.fbx using Guid(d08605b992248f948b207f9e2131d3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b00c3ee51546bc12022a45ad4ec6f3') in 0.055695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/HQ Hangar Free/Models/Hangar_part_03.fbx
+  artifactKey: Guid(eba32488b0945284782f635422a29933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Models/Hangar_part_03.fbx using Guid(eba32488b0945284782f635422a29933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb2861d812b1313c1d5ecce24955ec7') in 0.039582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/HQ Hangar Free/Models/Hangar_part_05.fbx
+  artifactKey: Guid(8fdf8ee6372027f47ad9727f006fc763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Models/Hangar_part_05.fbx using Guid(8fdf8ee6372027f47ad9727f006fc763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41eba920b52c7041849f0911080c5cf') in 0.039161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/HQ Hangar Free/Models/Hangar_part_02.fbx
+  artifactKey: Guid(2b88f6c715b28c14287c01b9536ada06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Models/Hangar_part_02.fbx using Guid(2b88f6c715b28c14287c01b9536ada06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a35db9a1cf2efe197e4b9ca0c9bcb1') in 0.032718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/HQ Hangar Free/Models/Hangar_part_04.fbx
+  artifactKey: Guid(c64e0fe5c5b818b4caa57dbe73fba718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Models/Hangar_part_04.fbx using Guid(c64e0fe5c5b818b4caa57dbe73fba718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb441494f68b5601505b9f18fbdaf80') in 0.021847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.174686 seconds.
+  path: Assets/HQ Hangar Free/Textures/Glass
+  artifactKey: Guid(e52ed1d8e09ac5346a4727ab647f6fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Textures/Glass using Guid(e52ed1d8e09ac5346a4727ab647f6fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54c3db9ce2c9d60088e06199d715ca9') in 0.002546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.733081 seconds.
+  path: Assets/HQ Hangar Free/Textures/Glass/Glass_BaseMap.png
+  artifactKey: Guid(23b1a8391c3f62540a0506ed9428fb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Textures/Glass/Glass_BaseMap.png using Guid(23b1a8391c3f62540a0506ed9428fb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4d5470b4b07a6ffaff47f45ed5a123') in 0.044452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/HQ Hangar Free/Textures/Glass/Glass_MaskMap.png
+  artifactKey: Guid(21573b8d07711334c8d74f9a45581a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HQ Hangar Free/Textures/Glass/Glass_MaskMap.png using Guid(21573b8d07711334c8d74f9a45581a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30a65e126fa26d788769509eee2eafc') in 0.014755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 221.305793 seconds.
+  path: Assets/Simple city plain/Prefabs/bench prefab.prefab
+  artifactKey: Guid(80c5916b9606ce646be16611d9a06d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/bench prefab.prefab using Guid(80c5916b9606ce646be16611d9a06d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fceec312b7a86c9e954f5e2dd479ac02') in 0.010688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Simple city plain/Prefabs/Building_I_2_Prefab.prefab
+  artifactKey: Guid(1e198ff9400b5064c816d8f779eff296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Building_I_2_Prefab.prefab using Guid(1e198ff9400b5064c816d8f779eff296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca854cca0b48b30a5fb3d7777828de37') in 0.012928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Simple city plain/Prefabs/Gas_station_A_PREFAB.prefab
+  artifactKey: Guid(01bbe20c855564648b02e0092e511cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Gas_station_A_PREFAB.prefab using Guid(01bbe20c855564648b02e0092e511cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c77f8eb594be89f943ae3b291e6a86a') in 0.015047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Simple city plain/Prefabs/Building_I_1_prefab.prefab
+  artifactKey: Guid(931ecb32d754b3f40afc9a688c8cea66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Building_I_1_prefab.prefab using Guid(931ecb32d754b3f40afc9a688c8cea66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d50a1331ab3073512ff800a97fda24') in 0.014383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Simple city plain/Prefabs/Stone Floor prefab.prefab
+  artifactKey: Guid(ffa4d200e6c7d9c4b90b3764b7ed86d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Stone Floor prefab.prefab using Guid(ffa4d200e6c7d9c4b90b3764b7ed86d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae08f012d3bd6176a53bd155c527334b') in 0.012181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Simple city plain/Prefabs/Building_M_prefab.prefab
+  artifactKey: Guid(84bb406b82cecb24cb1ffe5d4359339d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Building_M_prefab.prefab using Guid(84bb406b82cecb24cb1ffe5d4359339d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd032732bdad27ca77434827b4402321') in 0.014856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Simple city plain/Prefabs/Street 3 Prefab.prefab
+  artifactKey: Guid(2224b63330275e5478ef024b2913f937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Street 3 Prefab.prefab using Guid(2224b63330275e5478ef024b2913f937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6d64589e7f204af1d2634fea14fa94') in 0.014080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Simple city plain/Prefabs/Building_A1_prefab.prefab
+  artifactKey: Guid(562df8355904213468a690c4ce6740b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Building_A1_prefab.prefab using Guid(562df8355904213468a690c4ce6740b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe53d0fede24184b3eb6858383feec68') in 0.015941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Simple city plain/Prefabs/Pot_tree prefab.prefab
+  artifactKey: Guid(8e00364320862a746a6e67a5af5e5979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Pot_tree prefab.prefab using Guid(8e00364320862a746a6e67a5af5e5979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea7997c13e906efdbd0ad54451fbcec') in 0.242362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Simple city plain/Prefabs/ColaMachine prefab.prefab
+  artifactKey: Guid(2bf7da734f1a8224fb14055902b5b343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/ColaMachine prefab.prefab using Guid(2bf7da734f1a8224fb14055902b5b343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7665b5c4e9e6fa01adfb395b01ad539e') in 0.012659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Simple city plain/Prefabs/Building_N_Prefab.prefab
+  artifactKey: Guid(bbad862e7e06efe4a8ad0346a53e3cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Building_N_Prefab.prefab using Guid(bbad862e7e06efe4a8ad0346a53e3cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d07222e51306d609a63b090aa5a0c86') in 0.014665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Simple city plain/Prefabs/Shop_B_prefab.prefab
+  artifactKey: Guid(9a52ba64c3a0abf49ad9515917ade04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Shop_B_prefab.prefab using Guid(9a52ba64c3a0abf49ad9515917ade04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153ad4408bcdb4d0d2b0ef62b21f20d7') in 0.017298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Simple city plain/Prefabs/Tree prefab.prefab
+  artifactKey: Guid(1be61187b5d765449be824463642cb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Tree prefab.prefab using Guid(1be61187b5d765449be824463642cb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11450883b97ac3aeb62747d83b4d4eee') in 0.018182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Simple city plain/Prefabs/Grass Prefab.prefab
+  artifactKey: Guid(7446a392a730ac14d9cc70d21cf7ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Grass Prefab.prefab using Guid(7446a392a730ac14d9cc70d21cf7ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681c17cf194811a8e554ba0bf87b8316') in 0.014151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Simple city plain/Prefabs/Sideway Prefab.prefab
+  artifactKey: Guid(a9da80f587bbf9046aefc4a4cfb8a7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Sideway Prefab.prefab using Guid(a9da80f587bbf9046aefc4a4cfb8a7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4146aa1cddfc2106010c149b32a3c1c0') in 0.014676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Simple city plain/Prefabs/street_lamp 1 prefab.prefab
+  artifactKey: Guid(6825a3fe8a1605f42a0d0589e582ac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/street_lamp 1 prefab.prefab using Guid(6825a3fe8a1605f42a0d0589e582ac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7772852338504a1d00ab36717f48b52b') in 0.010190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Simple city plain/Prefabs/Big_trash_bin prefab.prefab
+  artifactKey: Guid(331560f2206dc024cb084301a19c05ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Big_trash_bin prefab.prefab using Guid(331560f2206dc024cb084301a19c05ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67446afecad49c1f99ccdd9a0a408009') in 0.011842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.818281 seconds.
+  path: Assets/Simple city plain/Mesh/bench.fbx
+  artifactKey: Guid(2c2a46e9474367f42af1fdbfcc3c2434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/bench.fbx using Guid(2c2a46e9474367f42af1fdbfcc3c2434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19aeb680f893655cf5c6e5bb35cdb764') in 0.015105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Simple city plain/Mesh/Sidewalk_05.fbx
+  artifactKey: Guid(5b37bebced2befa4cb0fa7e92016e465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Sidewalk_05.fbx using Guid(5b37bebced2befa4cb0fa7e92016e465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a503b5e20d1c50e9640e175760281f') in 0.016862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Simple city plain/Mesh/Pot_tree.fbx
+  artifactKey: Guid(495aba848fd785f43bf771270ddea3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Pot_tree.fbx using Guid(495aba848fd785f43bf771270ddea3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05423ea28a993d4931f658848dcec847') in 0.017181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Simple city plain/Mesh/Building_I_1.fbx
+  artifactKey: Guid(a31ede3a68c1fc642a73d7ab6870b43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Building_I_1.fbx using Guid(a31ede3a68c1fc642a73d7ab6870b43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986c11e5c653148d2a76973afb0842d8') in 0.031001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Simple city plain/Mesh/Building_I_2.fbx
+  artifactKey: Guid(9f70c3b25552f8c4cbfc2dc5b60b2c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Building_I_2.fbx using Guid(9f70c3b25552f8c4cbfc2dc5b60b2c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f3de3be150ba68b6a00d409af9a3bd') in 0.026165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Simple city plain/Mesh/street_lamp 1.fbx
+  artifactKey: Guid(be2c575b59c07d54e937a759af1f404e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/street_lamp 1.fbx using Guid(be2c575b59c07d54e937a759af1f404e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2dcf8ef4f28ac7be4eb63c12577541b') in 0.021085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Simple city plain/Mesh/tree_01.fbx
+  artifactKey: Guid(679283963e23da7408c0cc75a881a565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/tree_01.fbx using Guid(679283963e23da7408c0cc75a881a565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852dccb83c5644249296788fb3ce6797') in 0.024491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Simple city plain/Mesh/Big_trash_bin.fbx
+  artifactKey: Guid(221422f7266ae3249b686bbfb5989c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Big_trash_bin.fbx using Guid(221422f7266ae3249b686bbfb5989c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163907c020f54cc5e8b2e4b1adb3f370') in 0.035658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Simple city plain/Mesh/Hydrant.fbx
+  artifactKey: Guid(e929ac57e943d3c489f18cb67b6b4ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Hydrant.fbx using Guid(e929ac57e943d3c489f18cb67b6b4ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88aba6bec0cdd0b1fc1043326fc4385') in 0.015844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Simple city plain/Mesh/street_.fbx
+  artifactKey: Guid(72e65272e9752d842a914dd27fd86306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/street_.fbx using Guid(72e65272e9752d842a914dd27fd86306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4761b2440464d5ddd66ed2c80e45c0e2') in 0.014590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Simple city plain/Mesh/Gas_station_A.fbx
+  artifactKey: Guid(5bb97b332176ae0499af0f666e4f5828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Gas_station_A.fbx using Guid(5bb97b332176ae0499af0f666e4f5828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228fb7ae3de29100eae22368bc407fe4') in 0.023319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Simple city plain/Mesh/WalkWay 5.fbx
+  artifactKey: Guid(391ef46e275c80b408f222be809688a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/WalkWay 5.fbx using Guid(391ef46e275c80b408f222be809688a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ac2bf5df1fe5958c9d3214b01a2e25') in 0.019823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Simple city plain/Mesh/ColaMachine.fbx
+  artifactKey: Guid(2831f92b409a46f45a21bbde0b1f5107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/ColaMachine.fbx using Guid(2831f92b409a46f45a21bbde0b1f5107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403a93e903bd452be88ef9e4fac6c109') in 0.019841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Simple city plain/Mesh/Building_A1.fbx
+  artifactKey: Guid(e48ed78ee18a85b4ab1b16c0f67824b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Building_A1.fbx using Guid(e48ed78ee18a85b4ab1b16c0f67824b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def6a40b3d76a4793aab6ee77b9539c6') in 0.020524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Simple city plain/Mesh/Shop_B.fbx
+  artifactKey: Guid(82fffc905fad13948a591b76e545791d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Shop_B.fbx using Guid(82fffc905fad13948a591b76e545791d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a064dbeba9fb181571ae59a16d72c5') in 0.020102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Simple city plain/Mesh/Building_N.fbx
+  artifactKey: Guid(55ca7edad2f1e3b40b4dc5801b9f454b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Building_N.fbx using Guid(55ca7edad2f1e3b40b4dc5801b9f454b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ffd155bba0cdb17362aa3025632a5f') in 0.022601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Simple city plain/Mesh/Building_M.fbx
+  artifactKey: Guid(33a58fa9897d81c4fa6655fc4a19a500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Mesh/Building_M.fbx using Guid(33a58fa9897d81c4fa6655fc4a19a500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915caccc81ac082588d3447dffefe7e5') in 0.022362 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
